@@ -16,6 +16,7 @@ bool FileStream::setup() {
     return true;
   } else {
     DEBUG_FS(F("SPIFFS Fail"));
+    return false;
   }
 }  // END Function
 
